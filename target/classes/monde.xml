@@ -1,0 +1,189 @@
+<world>
+  <name>Loc Lac</name>
+  <logo>string</logo>
+  <money>0</money>
+  <score>0</score>
+  <totalangels>0</totalangels>
+  <activeangels>0</activeangels>
+  <angelbonus>0</angelbonus>
+  <lastupdate>0</lastupdate>
+
+  <products>
+    <product>
+      <id>1</id>
+      <name>Champignon Bleu</name>
+      <logo>string</logo>
+      <cout>1</cout>
+      <croissance>1.05</croissance>
+      <revenu>2</revenu>
+      <vitesse>5000</vitesse>
+      <quantite>0</quantite>
+      <timeleft>5000</timeleft>
+      <managerUnlocked>false</managerUnlocked>
+      <palliers>
+        <pallier>
+          <name>Cave à Champignon</name>
+          <logo>string</logo>
+          <seuil>30</seuil>
+          <idcible>1</idcible>
+          <ratio>1.25</ratio>
+          <typeratio>VITESSE</typeratio>
+          <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+          <name>Mandragore</name>
+          <logo>string</logo>
+          <seuil>100</seuil>
+          <idcible>1</idcible>
+          <ratio>1.5</ratio>
+          <typeratio>GAIN</typeratio>
+          <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+          <name>Bonne Recolte</name>
+          <logo>string</logo>
+          <seuil>1000</seuil>
+          <idcible>1</idcible>
+          <ratio>2</ratio>
+          <typeratio>GAIN</typeratio>
+          <unlocked>false</unlocked>
+        </pallier>
+      </palliers>
+
+    </product>
+    <product>
+      <id>2</id>
+      <name>Corne de Kelbi</name>
+      <logo>string</logo>
+      <cout>10</cout>
+      <croissance>1.1</croissance>
+      <revenu>14</revenu>
+      <vitesse>10000</vitesse>
+      <quantite>0</quantite>
+      <timeleft>10000</timeleft>
+      <managerUnlocked>false</managerUnlocked>
+      <palliers>
+        <pallier>
+          <name>Elevage de Kelbi</name>
+          <logo>string</logo>
+          <seuil>50</seuil>
+          <idcible>2</idcible>
+          <ratio>1.25</ratio>
+          <typeratio>VITESSE</typeratio>
+          <unlocked>false</unlocked>
+        </pallier>
+        <pallier>
+          <name>Kelbi a Grande Cornes</name>
+          <logo>string</logo>
+          <seuil>250</seuil>
+          <idcible>2</idcible>
+          <ratio>2</ratio>
+          <typeratio>GAIN</typeratio>
+          <unlocked>false</unlocked>
+        </pallier>
+      </palliers>
+    </product>
+  </products>
+
+  <allunlocks>
+    <pallier>
+      <name>string</name>
+      <logo>string</logo>
+      <seuil>3</seuil>
+      <idcible>3</idcible>
+      <ratio>1.051732E7</ratio>
+      <typeratio>ange</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+  </allunlocks>
+
+  <upgrades>
+    <pallier>
+      <name>Palico Motive</name>
+      <logo>string</logo>
+      <seuil>1000</seuil>
+      <idcible>0</idcible>
+      <ratio>1.05</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Palico Rapide</name>
+      <logo>string</logo>
+      <seuil>1000</seuil>
+      <idcible>0</idcible>
+      <ratio>1.05</ratio>
+      <typeratio>VITESSE</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Palico Super Rapide</name>
+      <logo>string</logo>
+      <seuil>10000</seuil>
+      <idcible>0</idcible>
+      <ratio>1.1</ratio>
+      <typeratio>VITESSE</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Palico Super Motive</name>
+      <logo>string</logo>
+      <seuil>10000</seuil>
+      <idcible>0</idcible>
+      <ratio>1.1</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+  </upgrades>
+
+  <angelupgrades>
+    <pallier>
+      <name>Boisson Energisante</name>
+      <logo>string</logo>
+      <seuil>1000</seuil>
+      <idcible>0</idcible>
+      <ratio>1.05</ratio>
+      <typeratio>VITESSE</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Poudre de Vie</name>
+      <logo>string</logo>
+      <seuil>2000</seuil>
+      <idcible>0</idcible>
+      <ratio>1.05</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Equipement de pointe</name>
+      <logo>string</logo>
+      <seuil>5000</seuil>
+      <idcible>0</idcible>
+      <ratio>1.1</ratio>
+      <typeratio>VITESSE</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+  </angelupgrades>
+
+  <managers>
+    <pallier>
+      <name>Palico Pro des Champignons</name>
+      <logo>string</logo>
+      <seuil>200</seuil>
+      <idcible>1</idcible>
+      <ratio>1</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+    <pallier>
+      <name>Palico Pro du Kelbi</name>
+      <logo>string</logo>
+      <seuil>200</seuil>
+      <idcible>2</idcible>
+      <ratio>1</ratio>
+      <typeratio>GAIN</typeratio>
+      <unlocked>false</unlocked>
+    </pallier>
+  </managers>
+</world>
